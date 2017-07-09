@@ -46,6 +46,5 @@ class LoginController extends Controller
             //第一步加载登录视图
             return view('admin.login');
         }
-
     }
 }
