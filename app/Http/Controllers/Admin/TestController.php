@@ -34,4 +34,5 @@ class TestController extends Controller
         $data = TestModel::whereBetween('id',['1','3'])->get();
         dd($data);
     }
+
 }
